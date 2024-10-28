@@ -1,0 +1,71 @@
+/* src/components/Register.css */
+body {
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+}
+
+/* Register Container */
+.register-container {
+    max-width: 500px;
+    margin: 50px auto; /* Center the form */
+    padding: 20px;
+    background-color: #f9f9f9; /* Light background */
+    border-radius: 10px; /* Rounded corners */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+}
+
+/* Title Styles */
+.register-container h2 {
+    text-align: center;
+    color:aqua; /* Navy color for title */
+    margin-bottom: 20px; /* Space below title */
+}
+
+/* Form Styles */
+.register-form {
+    display: flex;
+    flex-direction: column; /* Column layout for form */
+}
+
+/* Form Group Styles */
+.form-group {
+    margin-bottom: 15px; /* Space between form groups */
+}
+
+/* Label Styles */
+.form-group label {
+    font-weight: bold; /* Bold labels */
+    margin-bottom: 5px; /* Space below labels */
+}
+
+/* Input Styles */
+.form-group input,
+.form-group select {
+    padding: 10px; 
+    border: 1px solid #ccc;
+    border-radius: 5px; 
+    width: 100%; 
+}
+
+
+.gender-options {
+    display: flex;
+    gap: 15px; 
+}
+
+
+.submit-button {
+    padding: 10px;
+    background-color:aqua; 
+    color: white; 
+    border: none; 
+    border-radius: 5px; 
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s; 
+}
+
+.submit-button:hover {
+    background-color:cadetblue; 
+    color: black;
+}
